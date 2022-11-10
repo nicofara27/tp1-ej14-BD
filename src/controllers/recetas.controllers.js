@@ -44,7 +44,7 @@ export const crearReceta = async (req, res) => {
   } catch (error) {
     console.log(error);
     res.status(404).json({
-      mensaje: "No se pudo eliminar correctamente",
+      mensaje: "No se pudo subir correctamente",
     });
   }
 };
